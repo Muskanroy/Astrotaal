@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class=" row justify-content-center">
+            <div class="col-sm-8">
+                <h2>Register form</h2>
+                <form class="form-horizontal" action="/register", method="POST">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Email:</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="password">Password:</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="name">Name:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" placeholder="Enter name"
+                                name="Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="date">Date of Birth:</label>
+                        <div class="col-sm-10">
+                            <input type="date" class="form-control" id="date" placeholder="Enter DOB"
+                                name="Date of Birth">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="time">Time of Birth:</label>
+                        <div class="col-sm-10">
+                            <input type="time" class="form-control" id="time" placeholder="Enter time of birth"
+                                name="Time of Birth">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="location">Location of Birth:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="loc" placeholder="Enter location of birth"
+                                name="Location of Birth">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="number">Phone number:</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" id="no" placeholder="Enter phone number"
+                                name="Phone number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="status">Marital status:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="sts" placeholder="Enter marital status"
+                                name="Marital status">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary">Register</button>
+                            <a href="/login" class="btn btn-primary">Login</a>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

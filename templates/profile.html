@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Update</title>
+</head>
+<body>
+    <h2>Profile Update</h2>
+    <form action="/update_profile" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        <label for="time_of_birth">Time of Birth:</label>
+        <input type="time" id="time_of_birth" name="time_of_birth" required>
+        <br>
+        <label for="location_of_birth">Location of Birth:</label>
+        <input type="text" id="location_of_birth" name="location_of_birth" required>
+        <br>
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number" required>
+        <br>
+        <label for="marital_status">Marital Status:</label>
+        <select id="marital_status" name="marital_status" required>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widowed">Widowed</option>
+        </select>
+        <br>
+        <button type="submit">Update Profile</button>
+    </form>
+</body>
+</html>
